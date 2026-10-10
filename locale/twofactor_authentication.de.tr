@@ -1,0 +1,43 @@
+# textdomain:twofactor_authentication
+
+### Setup formspec
+Account Security Setup=Sicherheitseinstellungen für Konto
+Create your secret word:=Erstellen Sie Ihr geheimes Wort:
+Create=Erstellen
+Disconnect=Trennen
+I dont want secret word=Ich möchte kein geheimes Wort
+Welcome to the server!=Willkommen auf dem Server!
+Please create a secret word to secure your account.=Bitte erstellen Sie ein geheimes Wort, um Ihr Konto zu sichern.
+This word is different from your password and adds extra protection.=Dieses Wort unterscheidet sich von Ihrem Passwort und bietet zusätzlichen Schutz.
+You will be asked for this secret word each time you connect.=Sie werden bei jeder Verbindung nach diesem geheimen Wort gefragt.
+
+### Verify formspec
+Identity Verification=Identitätsprüfung
+Enter your secret word to access the server.=Geben Sie Ihr geheimes Wort ein, um auf den Server zuzugreifen.
+Attempts remaining: %d=Verbleibende Versuche: %d
+The secret words are all hashed, so no one can obtain them.=Geheime Wörter sind alle verschlüsselt, daher kann niemand sie erhalten
+If you forgot your secret word, contact an administrator.=Wenn Sie Ihr geheimes Wort vergessen haben, wenden Sie sich an einen Administrator.
+Hint: %s=Hinweis: %s
+Enter your secret word:=Geben Sie Ihr geheimes Wort ein:
+Error: =Fehler: 
+Verify=Überprüfen
+
+### Validation messages
+Secret word cannot be empty=Das geheime Wort darf nicht leer sein
+Secret word cannot contain only spaces=Das geheime Wort darf nicht nur aus Leerzeichen bestehen
+
+### Success/Info messages
+[Security] %s=[Sicherheit] %s
+[Security] Secret word created successfully. Keep it safe!=[Sicherheit] Geheimes Wort erfolgreich erstellt. Bewahren Sie es sicher auf!
+[Security] You chose not to use a secret word.=[Sicherheit] Sie haben sich entschieden, kein geheimes Wort zu verwenden.
+[Security] Identity verified successfully. Welcome back!=[Sicherheit] Identität erfolgreich überprüft. Willkommen zurück!
+
+### Error messages
+Authentication failed: Too many incorrect attempts=Authentifizierung fehlgeschlagen: Zu viele falsche Versuche
+Incorrect! %d attempt(s) remaining.=Falsch! %d Versuch(e) verbleibend.
+Disconnected by user choice=Getrennt durch Benutzerwahl
+
+### Chat command
+Reset your secret word=Setzen Sie Ihr geheimes Wort zurück
+You must be verified to use this command=Sie müssen verifiziert sein, um diesen Befehl zu verwenden
+Secret word reset. You will be asked to create a new one on next login.=Geheimes Wort zurückgesetzt. Sie werden beim nächsten Login aufgefordert, ein neues zu erstellen.

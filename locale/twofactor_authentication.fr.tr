@@ -1,0 +1,43 @@
+# textdomain:twofactor_authentication
+
+### Setup formspec
+Account Security Setup=Configuration de la sécurité du compte
+Create your secret word:=Créez votre mot secret :
+Create=Créer
+Disconnect=Déconnexion
+I dont want secret word=Je ne veux pas de mot secret
+Welcome to the server!=Bienvenue sur le serveur !
+Please create a secret word to secure your account.=Veuillez créer un mot secret pour sécuriser votre compte.
+This word is different from your password and adds extra protection.=Ce mot est différent de votre mot de passe et ajoute une protection supplémentaire.
+You will be asked for this secret word each time you connect.=Ce mot secret vous sera demandé à chaque connexion.
+
+### Verify formspec
+Identity Verification=Vérification d'identité
+Enter your secret word to access the server.=Entrez votre mot secret pour accéder au serveur.
+Attempts remaining: %d=Tentatives restantes : %d
+The secret words are all hashed, so no one can obtain them.=Les mots secrets sont tous hachés, par conséquent personne ne peut les obtenir
+If you forgot your secret word, contact an administrator.=Si vous avez oublié votre mot secret, contactez un administrateur.
+Hint: %s=Indice : %s
+Enter your secret word:=Entrez votre mot secret :
+Error: =Erreur : 
+Verify=Vérifier
+
+### Validation messages
+Secret word cannot be empty=Le mot secret ne peut pas être vide
+Secret word cannot contain only spaces=Le mot secret ne peut pas contenir uniquement des espaces
+
+### Success/Info messages
+[Security] %s=[Sécurité] %s
+[Security] Secret word created successfully. Keep it safe!=[Sécurité] Mot secret créé avec succès. Gardez-le en sécurité !
+[Security] You chose not to use a secret word.=[Sécurité] Vous avez choisi de ne pas utiliser de mot secret.
+[Security] Identity verified successfully. Welcome back!=[Sécurité] Identité vérifiée avec succès. Bon retour !
+
+### Error messages
+Authentication failed: Too many incorrect attempts=Authentification échouée : Trop de tentatives incorrectes
+Incorrect! %d attempt(s) remaining.=Incorrect ! %d tentative(s) restante(s).
+Disconnected by user choice=Déconnecté par choix de l'utilisateur
+
+### Chat command
+Reset your secret word=Réinitialiser votre mot secret
+You must be verified to use this command=Vous devez être vérifié pour utiliser cette commande
+Secret word reset. You will be asked to create a new one on next login.=Mot secret réinitialisé. Il vous sera demandé d'en créer un nouveau à la prochaine connexion.

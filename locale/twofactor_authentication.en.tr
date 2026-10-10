@@ -1,0 +1,43 @@
+# textdomain:twofactor_authentication
+
+### Setup formspec
+Account Security Setup=Account Security Setup
+Create your secret word:=Create your secret word:
+Create=Create
+Disconnect=Disconnect
+I dont want secret word=I don't want a secret word
+Welcome to the server!=Welcome to the server!
+Please create a secret word to secure your account.=Please create a secret word to secure your account.
+This word is different from your password and adds extra protection.=This word is different from your password and adds extra protection.
+You will be asked for this secret word each time you connect.=You will be asked for this secret word each time you connect.
+
+### Verify formspec
+Identity Verification=Identity Verification
+Enter your secret word to access the server.=Enter your secret word to access the server.
+Attempts remaining: %d=Attempts remaining: %d
+The secret words are all hashed, so no one can obtain them.=Secret words are all hashed, therefore no one can obtain them
+If you forgot your secret word, contact an administrator.=If you forgot your secret word, contact an administrator.
+Hint: %s=Hint: %s
+Enter your secret word:=Enter your secret word:
+Error: =Error: 
+Verify=Verify
+
+### Validation messages
+Secret word cannot be empty=Secret word cannot be empty
+Secret word cannot contain only spaces=Secret word cannot contain only spaces
+
+### Success/Info messages
+[Security] %s=[Security] %s
+[Security] Secret word created successfully. Keep it safe!=[Security] Secret word created successfully. Keep it safe!
+[Security] You chose not to use a secret word.=[Security] You chose not to use a secret word.
+[Security] Identity verified successfully. Welcome back!=[Security] Identity verified successfully. Welcome back!
+
+### Error messages
+Authentication failed: Too many incorrect attempts=Authentication failed: Too many incorrect attempts
+Incorrect! %d attempt(s) remaining.=Incorrect! %d attempt(s) remaining.
+Disconnected by user choice=Disconnected by user choice
+
+### Chat command
+Reset your secret word=Reset your secret word
+You must be verified to use this command=You must be verified to use this command
+Secret word reset. You will be asked to create a new one on next login.=Secret word reset. You will be asked to create a new one on next login.

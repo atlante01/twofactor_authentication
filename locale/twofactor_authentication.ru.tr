@@ -1,0 +1,43 @@
+# textdomain:twofactor_authentication
+
+### Setup formspec
+Account Security Setup=Настройка безопасности учётной записи
+Create your secret word:=Создайте секретное слово:
+Create=Создать
+Disconnect=Отключиться
+I dont want secret word=Я не хочу секретное слово
+Welcome to the server!=Добро пожаловать на сервер!
+Please create a secret word to secure your account.=Пожалуйста, создайте секретное слово для защиты вашей учётной записи.
+This word is different from your password and adds extra protection.=Это слово отличается от вашего пароля и добавляет дополнительную защиту.
+You will be asked for this secret word each time you connect.=Вас будут спрашивать это секретное слово при каждом подключении.
+
+### Verify formspec
+Identity Verification=Проверка личности
+Enter your secret word to access the server.=Введите секретное слово для доступа к серверу.
+Attempts remaining: %d=Осталось попыток: %d
+The secret words are all hashed, so no one can obtain them.=Секретные слова зашифрованы, поэтому никто не может их получить
+If you forgot your secret word, contact an administrator.=Если вы забыли секретное слово, свяжитесь с администратором.
+Hint: %s=Подсказка: %s
+Enter your secret word:=Введите секретное слово:
+Error: =Ошибка: 
+Verify=Проверить
+
+### Validation messages
+Secret word cannot be empty=Секретное слово не может быть пустым
+Secret word cannot contain only spaces=Секретное слово не может содержать только пробелы
+
+### Success/Info messages
+[Security] %s=[Безопасность] %s
+[Security] Secret word created successfully. Keep it safe!=[Безопасность] Секретное слово успешно создано. Храните его в безопасности!
+[Security] You chose not to use a secret word.=[Безопасность] Вы решили не использовать секретное слово.
+[Security] Identity verified successfully. Welcome back!=[Безопасность] Личность успешно проверена. С возвращением!
+
+### Error messages
+Authentication failed: Too many incorrect attempts=Ошибка аутентификации: Слишком много неверных попыток
+Incorrect! %d attempt(s) remaining.=Неверно! Осталось попыток: %d.
+Disconnected by user choice=Отключён по выбору пользователя
+
+### Chat command
+Reset your secret word=Сбросить секретное слово
+You must be verified to use this command=Вы должны быть проверены для использования этой команды
+Secret word reset. You will be asked to create a new one on next login.=Секретное слово сброшено. Вам будет предложено создать новое при следующем входе.
