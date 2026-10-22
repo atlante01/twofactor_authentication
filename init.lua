@@ -79,7 +79,7 @@ end
 local function show_setup_formspec(player_name)
     local formspec = "formspec_version[4]" ..
         "size[12,7]" ..
-        "allow_close[true]"..
+        "allow_close[false]"..
         "label[0.5,0.5;" .. core.formspec_escape(S("Account Security Setup")) .. "]" ..
         "label[0.8,1.5;" .. core.formspec_escape(S("Create your secret word:")) .. "]" ..
         "field[0.8,2.2;4.5,0.8;secret_input;;]" ..
